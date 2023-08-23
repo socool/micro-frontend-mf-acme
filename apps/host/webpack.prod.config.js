@@ -7,9 +7,10 @@ module.exports = withModuleFederation({
    * Each entry is a pair of a unique name and the URL where it is deployed.
    *
    * e.g.
-   * remotes: [
-   *   ['app1', 'https://app1.example.com'],
-   *   ['app2', 'https://app2.example.com'],
-   * ]
    */
+  remotes: [
+    ['shop', 'https://localhost:3000/shop'],
+    ['cart', 'https://localhost:3000/cart'],
+    ['about', 'https://localhost:3000/about'],
+  ],
 });
